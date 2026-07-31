@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Acquired | Review Your Med Spa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--purple:#7C3AED;--purple-dark:#5B21B6;--black:#0B0B10;--card:#17171F;--border:#2A2A38;--text:#D8D8E6}
+*{box-sizing:border-box}body{margin:0;background:#fff;font-family:Inter,sans-serif;color:#111}
+.hero{background:#1E1035;padding:70px 20px}
+.wrap{max-width:760px;margin:auto}
+.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:42px;color:#fff;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.badge{display:inline-block;background:#EDE4FF;color:#5B21B6;font-size:12px;font-weight:800;padding:7px 12px;border-radius:99px;margin-bottom:18px}
+h1{font-size:44px;line-height:1.1;margin:0 0 18px}
+p{line-height:1.75;color:var(--text)}
+ul{list-style:none;padding:0;margin:26px 0}
+li{padding:10px 0;color:#fff}
+li:before{content:"✓ ";color:#8B5CF6;font-weight:800}
+label{display:block;margin:18px 0 8px;font-weight:600}
+input,textarea{width:100%;padding:14px 16px;border-radius:8px;border:1px solid #3a3a48;background:#0F0F16;color:#fff;font:inherit}
+textarea{min-height:140px;resize:vertical}
+button{width:100%;margin-top:26px;padding:16px;border:0;border-radius:8px;background:var(--purple);color:#fff;font-size:16px;font-weight:700;cursor:pointer}
+button:hover{background:var(--purple-dark)}
+.note{font-size:13px;color:#aaa;text-align:center;margin-top:18px}
+</style>
+</head>
+<body>
+<section class="hero">
+<div class="wrap">
+<div class="card">
+<div class="badge">FREE REVIEW</div>
+<h1>Let's Review Your Med Spa</h1>
+<p>Thanks for reading the guide.</p>
+<p>Since you've already shared your practice details, there's nothing else you need to fill out.</p>
+<p>I'll personally review your enquiry process and identify where patients may be dropping off.</p>
+<p><strong>Within 24 hours, you'll receive:</strong></p>
+<ul>
+<li>Where enquiries may be getting lost</li>
+<li>The biggest response gaps I found</li>
+<li>Three recommendations to improve conversions</li>
+</ul>
+<p>If I believe <strong>Acquired</strong> can genuinely help your practice, I'll also include an invitation to schedule a strategy call.</p>
+
+<form action="https://formspree.io/f/mqeryjbg" method="POST">
+<label>Name</label>
+<input type="text" name="name" required>
+
+<label>Practice Name</label>
+<input type="text" name="practice_name" required>
+
+<label>Any current problem/bottleneck you're trying to solve? <span style="color:#999">(Optional)</span></label>
+<textarea name="current_problem"></textarea>
+
+<button type="submit">Done</button>
+</form>
+<div class="note">We'll review your submission and get back to you within 24 hours.</div>
+</div>
+</div>
+</section>
+</body>
+</html>
